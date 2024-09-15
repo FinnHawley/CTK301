@@ -29,11 +29,11 @@ a {
 }
 
 a:link {
-    color: green;
+    color: red;
 }
 
 a:visited {
-    color: #0000ff;
+    color: green;
   }
 
 a:active {
@@ -41,6 +41,6 @@ a:active {
   }
 
 a:hover {
-    color: darkgreen;
+    color: yellow;
     text-decoration: underline;
   }        
