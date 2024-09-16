@@ -1,0 +1,70 @@
+/* This is a stylesheet for FixAndStyle.html*/
+#docdiv{
+    color: white;
+    background-color: rgb(116, 106, 211);
+    margin: 10px;
+}
+.docy{
+    color: black;
+}
+
+#JCS {
+    color: blue;
+}
+
+.jzyzz {
+    text-align: justify;
+}
+.yella{
+   color: black;
+   background-color: yellow;
+   font-weight: bolder;
+}
+.spans {
+    color: orange;
+    font-weight: bold;
+}
+
+a:link {
+    color: green;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.reddy {
+    color: red;
+}
+
+#irish {
+    color: yellow;
+    background-color: darkgreen;
+    font-weight: bolder;
+}
+
+#lime {
+    color: black;
+
+    background-color: green;
+}
+
+#dafunny {
+    background-color: yellow;
+}
+
+#redd{
+    color: red;
+    font-weight: bolder;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.doccy {
+    color: blue;
+    font-weight: bolder;
+}
