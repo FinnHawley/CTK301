@@ -23,7 +23,6 @@ nav li {
     display: inline-block;
 }
 
-
 nav a {
     border: 1px solid black;
     width: 150px;
@@ -70,8 +69,4 @@ nav a:hover{
     font-family: Verdana;
     font-style: italic;
     font-weight: bold;
-}
-
-.img {
-background-repeat:repeat;
 }
