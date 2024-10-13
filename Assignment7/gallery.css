@@ -1,0 +1,140 @@
+body {
+    background-color: lightgray;
+}
+
+#wrapper {
+margin: 1em auto;
+  padding: 0;
+  width: 100%;
+  max-width: 900px;
+  border: 4px solid #0047AB;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    grid-column: span 3;
+    background-image: linear-gradient(to bottom, #4f8bd2, #3a7ad0, #2c69cc, #2856c7, #2f41be);
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 4px solid #0047AB;
+}
+
+header h1 {
+    padding-left: 35px;
+    font-weight: normal;
+    color: lightblue;
+}
+
+header h1 a:hover{
+    color: darkblue;
+}
+
+header a {
+    display: block;
+    color: lightblue;
+    text-decoration: none;
+}
+
+header nav a.current {
+    color: white;
+}
+
+#Hone {
+    font-weight: normal;
+}
+
+nav {
+    display: block;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    gap: 4px;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    display: block;
+    background-image: linear-gradient(to bottom, #4f8bd2, #3a7ad0, #2c69cc, #2856c7, #2f41be);
+    text-decoration: none;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+
+    background-image: linear-gradient(to bottom, #2f41be, #2856c7, #2c69cc, #3a7ad0, #4f8bd2);
+    color: white;
+}
+
+.bio {
+    grid-column: span 1;
+    padding: 0 10px;
+
+}
+
+.bio-first {
+    padding-left: 20px;
+}
+
+.bio-last {
+    padding-right: 20px;
+}
+
+.bio img {
+    display: block;
+    width: 100%;
+}
+
+.bio h2 {
+    border-bottom: 3px solid #0047AB;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0047AB;
+}
+
+.bio p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.bio a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bio a:hover {
+    color: #0047AB;
+}
+
+footer {
+    border-top: 4px solid #0047AB;
+    grid-column: span 3;
+    background-color: red;
+}
+
+footer a {
+    display: block;
+}
+
+footer a img {
+    display: block;
+    padding: 10px;
+}
