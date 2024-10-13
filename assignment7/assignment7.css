@@ -8,14 +8,10 @@ margin: 1em auto;
   width: 900px;
   border: 4px solid #0047AB;
   background-color: white;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr) ;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 header {
-    grid-column: span 3;
     background-image: linear-gradient(to bottom, #4f8bd2, #3a7ad0, #2c69cc, #2856c7, #2f41be);
     color: lightblue;
     font-weight: normal;
@@ -25,7 +21,9 @@ header {
 }
 
 header h1 {
-    padding-left: 35px;
+    padding: 30px;
+    margin: 0px;
+    font-weight: normal;
 }
 
 header h1 a:hover{
@@ -42,13 +40,7 @@ header nav a.current {
     color: white;
 }
 
-#Hone {
-    font-weight: normal;
-}
-
 nav {
-    grid-column: span 6;
-    display: block;
     font-weight: bold;
     font-style: normal;
     text-align: center;
@@ -59,17 +51,17 @@ nav ul {
     list-style: none;
     margin:0;
     padding:0;
-    display: flex;
-    gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4px;
 }
 
 nav li {
-    flex: 1;
+    background-image: linear-gradient(to bottom, #4f8bd2, #3a7ad0, #2c69cc, #2856c7, #2f41be);
 }
 
 nav a {
     display: block;
-    background-image: linear-gradient(to bottom, #4f8bd2, #3a7ad0, #2c69cc, #2856c7, #2f41be);
     text-decoration: none;
     padding: 10px;
     height: 100%;
@@ -77,8 +69,112 @@ nav a {
 }
 
 nav a:hover {
- 
-
     background-image: linear-gradient(to bottom, #2f41be, #2856c7, #2c69cc, #3a7ad0, #4f8bd2);
     color: white;
+}
+
+.nobo {
+    font-weight: normal;
+    border-bottom: 3px solid #0047AB;
+    color: #0047AB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    grid-column: span 1;
+    background-color: #a5dbde;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+
+main p {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: justify;
+}
+
+aside {
+    grid-column: span 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+aside a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+aside a:hover {
+    color: #0047AB;
+    text-decoration: none;
+}
+
+#floata {
+    float: left;
+    width: 325px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    border: 3px solid #0047AB ;
+}
+
+.main_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.bios {
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.bio {
+    grid-column: span 1;
+}
+
+.bio img {
+    display: block;
+    width: 100%;
+}
+
+.bio h2 {
+    border-bottom: 3px solid #0047AB;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0047AB;
+}
+
+.bio p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.bio a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bio a:hover {
+    color: #0047AB;
+}
+
+footer {
+    border-top: 4px solid #0047AB;
+    grid-column: span 3;
+    background-color: red;
+}
+
+footer a {
+    display: block;
+}
+
+footer a img {
+    display: block;
+    padding: 10px;
 }
