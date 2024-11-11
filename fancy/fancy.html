@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fancy Example</title>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js">
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+  <link rel="stylesheet" href="fancy.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+  />
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Fancy Example</h1>
+    <a href="icecream.jpg" data-fancybox="gallery" data-caption="Caption 
+    #1">
+      <img src="icecream_thumb.jpg" alt="ice cream!"/>
+    </a>
+    <a href="patch.jpg" data-fancybox="gallery" data-caption="Caption 
+    #2">
+      <img src="patch_thumb.jpg" alt="soda patch" />
+    </a>
+      <a href="water.jpg" data-fancybox="gallery" data-caption="Caption 
+      #2">
+        <img src="water_thumb.jpg" alt="water pipe" />
+    </a>
+
+
+  <div>
+    <div class="f-carousel" id="myCarousel">
+      <div class="f-carousel__slide"><img src="icecream.jpg" alt="Ice Cream">
+      </div><div class="f-carousel__slide"><img src="patch.jpg" alt="CanadaDryPatch">
+      </div><div class="f-carousel__slide"><img src="water.jpg" alt="Water Drain"></div>
+    </div>    
+  <div>
+    <div class="f-carousel" id="2ndCarousel">
+    <div class="f-carousel__slide"><img src="icecream.jpg" alt="Ice Cream">
+    </div><div class="f-carousel__slide"><img src="patch.jpg" alt="CanadaDryPatch">
+    </div><div class="f-carousel__slide"><img src="water.jpg" alt="Water Drain">
+  </div>
+  </div>
+  <script>
+    Fancybox.bind("[data-fancybox]", {});
+
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+
+    new Carousel(container, options);
+
+  </script>
+</body>
+</html>
+ß
