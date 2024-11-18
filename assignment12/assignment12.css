@@ -1,0 +1,178 @@
+body {
+    background-color: darkgrey;
+}
+
+
+#wrapper {
+    margin: 1em auto;
+      padding: 0;
+      width: 900px;
+      background-color: white;
+      font-weight: normal;
+    }
+header {
+    background-image: linear-gradient(to bottom, #063875, #06306e, #082767, #0a1f60, #0d1658);
+    color: lightblue;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 4px solid #0d1658;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    font-style: normal;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    margin:0 20px;
+    padding:0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+}
+
+nav li {
+    background-image: linear-gradient(to top, #770984, #6a0975, #5c0866, #500857, #430749);
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    background-image: linear-gradient(to bottom, #770984, #6a0975, #5c0866, #500857, #430749);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-weight: normal;
+}
+
+.imgclass {
+    max-width: 75px;
+}
+
+.mainbottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#FirstPart{
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0px 20px;
+}
+
+.genreitems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.genreitems a {
+    text-align: center;
+}
+
+#SecondPart{
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+#myCarousel .f-carousel__slide {
+    text-align: center; 
+
+}
+
+.f-carousel {
+    --f-button-width: 10px;
+    --f-button-height: 15px;
+  
+    --f-button-svg-width: 8px;
+    --f-button-svg-height: 8px;
+    --f-button-svg-stroke-width: 2.5;
+  
+    --f-button-color: rgb(71 85 105);
+    --f-button-border-radius: 50%;
+    --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+            0 / 30%);
+  
+    --f-button-bg: #fff;
+    --f-button-hover-bg: #f9f9f9;
+    --f-button-active-bg: #f0f0f0;
+    display: flex;
+    max-width: 5px;
+    max-width: 3px;
+    padding-left: 25px;
+    grid-gap: 45px;
+}
+
+
+.secondpartheader {
+    display: inline;
+    padding: 0 10px;
+    background-color: skyblue;
+    color: #ffff;
+}
+
+#ThirdPart {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: pink;
+    padding: 25px 15px 25px 15px;
+    margin-top: 15px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socialmedialinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center; 
+    font-size: xx-large;
+}
+
