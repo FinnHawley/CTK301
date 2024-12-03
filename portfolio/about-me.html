@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Finn Hawley Creative</title>
+        <link href="portfolio.css" rel="stylesheet" type="text/css">  
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <a href="index.html" target="_self"><h1> Finn Hawley Creative </h1></a>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a>
+                    </li><li><a href="gallery.html" target="_self">Gallery</a>
+                    </li><li><a class="current" href="about-me.html" target="_self">About Me</a>
+                    </li>
+                </ul>
+            </nav>
+            <h2 class="finny"> About the Artist </h2>
+            <div> 
+                <div class="centerimg"><img class="finnimg" src="IMG_9974.JPG" alt="Finn Hawley at Stonehenge"></div>
+                <div class="centerimg"><img class="finnimg" src="IMG_9854.jpeg" alt="Finn and his brother Theo at Busch Stadium"></div>
+                <p class="finn-desc"> My name is Finn Hawley, and I am a creative young designer from St. Louis, Missouri. I am passionate about many art forms, however my primary interests tend to fall under the technological side of things. I am studying Interdisciplinary Technologies at Illinois State University in Normal, Illinois. My major is part of a greater program called Creative Technologies that focuses on web design, graphic design, music production, video game production, UI/UX, and even VR design. My major focuses on web design and graphic design. I am currently taking CTK 301: Web Design and Development, and I am having a lot of fun. I can definetely tell that this is something I could see myself doing the rest of my life. </p>
+            </div>
+            <footer>
+                &copy;  Finn Hawley Creative 2024
+                    <a href="https://www.instagram.com/finnhawleyy/" target="_blank" class="bi bi-instagram"></a>
+                    <a href="https://x.com/finnhawleyy" target="_blank" class="bi bi-twitter-x"></a>
+                    <a href="https://www.linkedin.com/in/finn-hawley-0185b2335/" target="_blank" class="bi bi-linkedin"></a>
+                    <a href="https://youtube.com" target="_blank" class="bi bi-youtube"></a>
+            </footer>
+        </div>
+        <script>
+            const container = document.getElementById("myCarousel");
+            const options = { infinite: false };
+            new Carousel(container, options);
+        </script>
+    </body>
+</html>

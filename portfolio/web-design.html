@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Finn Hawley Creative</title>
+        <link href="portfolio.css" rel="stylesheet" type="text/css">  
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js">
+        </script>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <a href="index.html" target="_self"><h1> Finn Hawley Creative </h1></a>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a>
+                    </li><li><a class="current" href="gallery.html" target="_self">Gallery</a>
+                    </li><li><a  href="about-me.html" target="_self">About Me</a>
+                    </li>
+                </ul>
+            </nav>
+            <button id="go-back"> <img class="back-space" src="backspace.png"> </button>
+            <h2 class="finny">Recent Websites for CTK 301</h2>
+            <div class="web-fancy">
+                <a href="assignment12.png" data-fancybox="gallery" data-caption="Assignment 12: Javascript">
+                <img src="assignment12thumb.png" alt="Assignment 12"/>
+                </a>
+                <a href="assignment11.png" data-fancybox="gallery" data-caption="Assignment 11: CSS Effects, Webfonts, Audio/Video">
+                <img src="assignment11thumb.png" alt="Assignment 11"/>
+                </a>
+                <a href="assignment10.png" data-fancybox="gallery" data-caption="Assignment 10: Mockup to HTML/CSS">
+                <img src="assignment10thumb.png" alt="Assignment 10"/>
+                </a>
+                <a href="assignment7.png" data-fancybox="gallery" data-caption="Assignment 7: Midterm Review">
+                <img src="assignment7thumb.png" alt="Assignment 7"/>
+                </a>
+            </div>
+            <h2 class="finny>">Recent Websites For Personal Creation</h2>
+            <footer>
+                &copy;  Finn Hawley Creative 2024
+                    <a href="https://www.instagram.com/finnhawleyy/" target="_blank" class="bi bi-instagram"></a>
+                    <a href="https://x.com/finnhawleyy" target="_blank" class="bi bi-twitter-x"></a>
+                    <a href="https://www.linkedin.com/in/finn-hawley-0185b2335/" target="_blank" class="bi bi-linkedin"></a>
+                    <a href="https://youtube.com" target="_blank" class="bi bi-youtube"></a>
+            </footer>
+        </div>
+        <script>
+            document.getElementById("go-back").addEventListener("click", () => {
+            history.back();
+            });
+            Fancybox.bind("[data-fancybox]", {});
+            const container = document.getElementById("myCarousel");
+            const options = { infinite: false };
+            new Carousel(container, options);
+
+        </script>
+    </body>
+</html>

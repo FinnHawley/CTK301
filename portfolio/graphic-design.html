@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Finn Hawley Creative</title>
+        <link href="portfolio.css" rel="stylesheet" type="text/css">  
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js">
+        </script>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <a href="index.html" target="_self"><h1> Finn Hawley Creative </h1></a>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a>
+                    </li><li><a href="gallery.html" target="_self">Gallery</a>
+                    </li><li><a  href="about-me.html" target="_self">About Me</a>
+                    </li>
+                </ul>
+            </nav> 
+            <button id="go-back"> <img class="back-space" src="backspace.png"> </button>
+            <h2 class="finny"> Recent Graphic Design Work </h2>
+            <div class="graphic-fancy">
+                <a href="ClayCult1 copy (1).png" data-fancybox="gallery" data-caption="Culture Album Art 
+                #1">
+                <img src="ClayCult1-thumb.png" alt="Culture Album Art #1"/>
+                </a>
+                <a href="CultureClay1 copy.png" data-fancybox="gallery" data-caption="Culture Album Ar 
+                #2">
+                <img src="CultureClay1-thumb.png" alt="Culture Album Art #2"/>
+                </a>
+                <a href="DSavage copy.png" data-fancybox="gallery" data-caption="D Savage Album 
+                Art">
+                <img src="DSavage-thumb.png" alt="D Savage Album Art"/>
+                </a>
+                <a href="SolarPART2 copy.png" data-fancybox="gallery" data-caption="'Solar' logo for my producer friend, Solar">
+                <img class="roundedbox2"src="SolarPART2-thumb.png" alt="Sun Logo for My Friend, Solar"/>
+                </a>
+            </div>        
+            <footer>
+                &copy;  Finn Hawley Creative 2024
+                    <a href="https://www.instagram.com/finnhawleyy/" target="_blank" class="bi bi-instagram"></a>
+                    <a href="https://x.com/finnhawleyy" target="_blank" class="bi bi-twitter-x"></a>
+                    <a href="https://www.linkedin.com/in/finn-hawley-0185b2335/" target="_blank" class="bi bi-linkedin"></a>
+                    <a href="https://youtube.com" target="_blank" class="bi bi-youtube"></a>
+            </footer>
+        </div>
+        <script>
+            document.getElementById("go-back").addEventListener("click", () => {
+            history.back();
+            });
+            Fancybox.bind("[data-fancybox]", {});
+            const container = document.getElementById("myCarousel");
+            const options = { infinite: false };
+            new Carousel(container, options);
+
+        </script>
+    </body>
+</html>
