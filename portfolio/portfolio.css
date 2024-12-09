@@ -295,6 +295,16 @@ h3{
     text-align: center;
 }
 
+.logo-art{
+    margin: 0px 375px 10px 375px;
+    padding: 7px 0px 7px 0px;
+}
+
+.album-art {
+    margin: 0px 375px 10px 375px;
+    padding: 7px 0px 7px 0px;
+}
+
 .basic-html {
     border-bottom: 2px solid #2878FF;
     margin: 0px 375px 10px 375px;
