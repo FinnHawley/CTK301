@@ -126,10 +126,11 @@ main {
 }
 
 #go-back {
+    cursor: pointer;    
     text-align: left;
     background-color: white;
     border: white 2px solid;
-    
+
 }
 
 .gradient-middle {
@@ -139,6 +140,7 @@ main {
 .items a {
     text-decoration: none;
     color: #000000;
+    object-fit: cover;
 }
 
 .items a:visited {
@@ -182,9 +184,22 @@ h2{
     margin-top: 0px;
 }
 
+h3{ 
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
 .finny {
     padding-top: 20px;
 }
+
+.finna {
+    padding: 10px 0px 10px 0px;
+}
+
+
 
 .imgclass {
     max-width: 150px;
@@ -278,6 +293,61 @@ h2{
 
 .web-fancy {
     text-align: center;
+}
+
+.basic-html {
+    border-bottom: 2px solid #2878FF;
+    margin: 0px 375px 10px 375px;
+    padding: 7px 0px 7px 0px;
+
+}
+
+.basic-css{
+    border-bottom: 2px solid #FFC274;
+    margin: 0px 375px 10px 375px;
+    padding: 7px 0px 7px 0px;
+}
+
+.advanced-css{
+    border-bottom: 2px solid #CB1AFF;
+    margin: 0px 375px 10px 375px;
+    padding: 7px 0px 7px 0px;
+}
+
+.midterm-rev{
+    border-bottom: 2px solid #12511B;
+    margin: 0px 375px 10px 375px;
+    padding: 7px 0px 7px 0px;
+}
+
+.portfolio-rev {
+    border-bottom: 2px solid #9A0004;
+    margin: 0px 350px 10px 350px;
+    padding: 7px 0px 7px 0px;
+}
+
+.web-fancy img {
+    border: black 1px solid;
+}
+
+.web-fancy a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.web-fancy a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.web-fancy a:active{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.web-fancy a:hover{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .back-space {
